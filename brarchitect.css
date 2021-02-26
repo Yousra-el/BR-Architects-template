@@ -13,10 +13,9 @@ header {
     width: 100%;
     position: fixed;
     background-color: white;
-    z-index: 1;
-   
-    
+    z-index: 1;   
 }
+
 .first-part{
     float: left;
     padding: 10px;
@@ -24,6 +23,8 @@ header {
 }
 .first-part:hover {
     background-color:rgb(175, 174, 174) ;
+    border: solid 1px rgb(175, 174, 174) ;
+    cursor: pointer;
 }
 .first-part p{
     font-size: 15px;
@@ -46,6 +47,8 @@ header {
 }
 li:hover{
     background-color: rgb(175, 174, 174);
+    border: solid 1px rgb(175, 174, 174);
+    cursor: pointer;
 }
 
 
@@ -94,12 +97,13 @@ li:hover{
 .parts1 {
     
     position: absolute;
-    margin: 30px;
+    margin: 30px;   
 }
 
  .part3{
     margin-top: 40px;
     width: 950px;
+    
    
 }
 .part3 h1 {
@@ -116,58 +120,180 @@ li:hover{
 }
 
 .img1 {
-    
-   position: relative;
-   display:flex;
-   flex-direction: row;
-   justify-content: space-around;
-}
-
-
-
-.img1-1 img{
-    width: 235px;
-    height: 150px;
     position: absolute;
+    display: flex;
     
-    
-    
-    
-
-}
-.img1-2 {
-    position: absolute;
-    margin: 10px;
-    
-   
 }
 
-.img1-2 p{
+.img1 img{
+    width:227px;
+    height:150px;
+    margin-right: 15px;
+}
+
+.img1 p{
     background-color: black;
     color: white;
+    width: fit-content;
     padding: 10px;
-}
-
-/*
-.img2 {
     position: relative;
-    margin-left: 130px;
+    top: -153px;
+    
 }
-.img2-1 img{
-    width: 250px;
-    height: 150px;
+.part4 {
+    margin-top: 340px;
+    width: 950px;
+    position: relative;
+    margin-left: 30px; 
+}
+
+.img2 {
     position: absolute;
+    display: flex;
+    
+    
 }
-.img2-2 {
-    position: absolute;
+
+.img2 img{
+    width:227px;
+    height:150px;
+    margin-right: 15px;
 }
-.img2-2 p{
+
+.img2 p{
     background-color: black;
     color: white;
+    width: fit-content;
     padding: 10px;
+    position: relative;
+    top: -153px;
+    
 }
-*/
+.about {
+    margin-top: 550px;
+    margin-left: 30px;
+    width: 950px;
+}
+.about h1 {
+    font-size: 20px;
+    padding-bottom: 25px;
 
+}
+.about hr{
+    margin-bottom: 20px;
+    color: grey;
+    opacity: 0.5;
+    width: 950px;
+}
+.about p{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.names {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+.name1{
+    margin-right: 15px;
+}
 
-
+.name1 img{
+    width: 225px;
+    height:150px;
+    margin-bottom: 10px;
+}
+.name1 h1 {
+    font-size:22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.name1 h4{
+    padding-bottom: 20px;
+    color:grey;
+    opacity: 0.6;
+    font-size:15px;
+}
+.name1 p{
+    width:225px;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size:15px;
+    
+}
+.name1 button{
+    width:225px;
+    text-align: center;
+    height: 40px;
+    font-size:15px;
+    background-color: #f1f1f1;
+    border:solid 1px #f1f1f1;
+    margin-bottom: 50px;
+}
+.name1 button:hover{
+    background-color:grey;
+    cursor: pointer;
+    border: solid 1px grey ;
+}
+.contact {
+    margin-top:20px;
+    margin-left: 30px;
+    width: 950px;
+}
+.contact h1 {
+    font-size:22px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.contact hr{
+    margin-bottom: 15px;
+    color: grey;
+    opacity: 0.5;
+    width: 950px;
+}
+.contact p {
+    margin-bottom:15px
+}
+.contact input{
+    height: 35px;
+    width:950px;
+    margin: 10px 0px;
+}
+.contact input::placeholder{
+    padding-left: 10px;
+    color: grey;
+    font-size:15px;
+}
+.contact button{
+    background-color: black;
+    color:white;
+    height: 40px;
+    padding: 0px 25px;
+    border: solid 1px black;
+    margin-bottom: 60px;
+    margin-top:20px;
+}
+.contact button:hover{
+    background-color: #e0dada;
+    border: solid 1px #e0dada;
+    color:black;
+    cursor: pointer;
+}
+.contact img {
+    width: 950px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: black;
+    height:100px;
+    width: 100%;
+}
+footer p{
+    padding-top: 50px;
+    text-align:center;
+    color: white;
+}
+footer a{
+    color:white;
+}
 

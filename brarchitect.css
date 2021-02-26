@@ -60,7 +60,6 @@ li:hover{
     width:100%;
     vertical-align: middle;
     height: auto;
-    margin-top: 60px;
     
 }
 
@@ -73,7 +72,7 @@ li:hover{
 } 
 .part2 p{
     margin-top: -285px;
-    margin-left: 380px;
+    margin-left: 360px;
 }
 .part2 p:nth-child(2) {
     font-size: 35px;

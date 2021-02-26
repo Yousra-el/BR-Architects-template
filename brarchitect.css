@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+   
+    
+}
+.first-part{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.first-part:hover {
+    background-color:rgb(175, 174, 174) ;
+}
+.first-part p{
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+.second-part {
+    float: right;
+    margin-right: 20px;
+}
+
+.second-part ul {
+    display: flex;
+    margin:10px;
+}
+.second-part li{
+    padding: 10px 15px;
+    list-style: none;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+li:hover{
+    background-color: rgb(175, 174, 174);
+}
+
+
+.parts{
+    position: relative;
+    
+}
+.part1 img {
+    width:100%;
+    vertical-align: middle;
+    height: auto;
+    margin-top: 60px;
+    
+}
+
+.part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;  
+    position: absolute;
+} 
+.part2 p{
+    margin-top: -285px;
+    margin-left: 380px;
+}
+.part2 p:nth-child(2) {
+    font-size: 35px;
+    color:white;
+    letter-spacing: 4px;
+    margin-left: 6px;
+    padding: 10px;
+    
+    
+}
+.part2 p:nth-child(1){
+    background-color: black;
+    opacity: 0.8;
+    font-size: 35px;
+    color:white;
+    letter-spacing: 4px;
+    padding: 10px;
+    margin-bottom: 320px;
+   
+}
+.parts1 {
+    
+    position: absolute;
+    margin: 30px;
+}
+
+ .part3{
+    margin-top: 40px;
+    width: 950px;
+   
+}
+.part3 h1 {
+    font-size: 20px;
+    padding-bottom: 15px;
+
+}
+
+.part3 hr{
+    margin-bottom: 33px;
+    color: grey;
+    opacity: 0.5;
+    width: 950px;
+}
+
+.img1 {
+    
+   position: relative;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+
+
+.img1-1 img{
+    width: 235px;
+    height: 150px;
+    position: absolute;
+    
+    
+    
+    
+
+}
+.img1-2 {
+    position: absolute;
+    margin: 10px;
+    
+   
+}
+
+.img1-2 p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/*
+.img2 {
+    position: relative;
+    margin-left: 130px;
+}
+.img2-1 img{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+}
+.img2-2 {
+    position: absolute;
+}
+.img2-2 p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+*/
+
+
+
+
